@@ -2,7 +2,7 @@ import os
 from flask import Flask, jsonify
 
 app = Flask(__name__)
-VERSION = "v4"
+VERSION = "v5"
 
 @app.route("/")
 def index():
